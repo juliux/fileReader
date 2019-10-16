@@ -16,6 +16,19 @@
 #cluster.com.ericsson.em.am.ca.cis.url:http://localhost:8080/sp
 #cluster.com.ericsson.em.am.ca.cis.url=https://f5.mtn.com.gh:8880/cisBusiness/Mservice/MobileMoneyHttpService
 
+#StartDateTime; 2019-09-01T17:20;
+#EndDateTime; 2019-09-01T17:30;
+#Task; com.ericsson.em.am.ca.cis.https://f5.mtn.com.gh:8880/cisBusiness/Mservice/MobileMoneyHttpService/debitcompleted;
+#Number of calls (N); 2894;
+#Min wait (ms); 73.34;
+#Max wait (ms); 2568.65;
+#Mean wait (ms); 954.84;
+#Tps; 4.82;
+#Mean * N; 2763308;
+#Success rate (%); 100.00;
+#Number of failures; 0;
+#Number of errors; 0;
+
 COUNTER=0
 for i in $( ls *csv )
 do
